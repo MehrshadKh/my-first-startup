@@ -1,0 +1,56 @@
+body,
+
+html {
+	width: 100%;
+	height: 100%;
+	font-family: fantasy;
+	 background: url(header.jfif) no-repeat center center fixed; 
+ 	 -webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+ 	 -o-background-size: cover;
+ 	 background-size: cover;
+
+ }
+
+h1 {
+	font-size: 80px;
+	color: #dbcece;
+	transition: 1s;
+ }
+
+
+.btn {
+
+	font-weight: 400;
+	font-size: 30px;
+	border-radius: 200px;
+	text-transform: uppercase;
+	background-color: #750101;
+	border-color: #750101;
+	transition: 1s;
+}
+.btn-xl {
+	padding: 15px 30px;
+}
+
+.btn-primary {
+	background-color: #750101;
+	border-color: #750101;
+}
+
+
+.btn-primary:hover {
+	background-color: #d41e1e;
+	border-color: #d41e1e;
+	transform: scale(1.1);
+}
+
+.text1:hover {
+	background-color: #f6eec9;
+	color: #750101;
+	transform: scale(1.1);
+}
+
+.buffer {
+	height: 60px;
+}
